@@ -12,7 +12,7 @@
   int main(void)
         {
              afficher_bonjour();
-          /* float nombre1, nombre2;
+           float nombre1, nombre2;
             int nombre;
 
       printf("Entrez un entier a 3 chiffres\n");
@@ -45,16 +45,16 @@
     scanf("%d%d%d",&a, &b, &c);
     printf("Les 3 nombres dans l'ordre que vous avez donner sont : %d , %d , %d.\n", a, b, c);
      int croissant = comparaison_croissante(a, b, c);
-*/
 
 
 
-    /*signed char caract1[100] = "Connais-toi toi-meme!";
+
+    signed char caract1[100] = "Connais-toi toi-meme!";
     signed char caract2[100] = "Je pense donc je suis!";
     printf("Avant la permutation de caracteres caract1 = %s et caract2 = %s\n",caract1, caract2);
     signed char *ptr_caract1 = caract1;
     signed char *ptr_caract2 = caract2;
     permuter(&ptr_caract1,&ptr_caract2);
     afficher(ptr_caract1, ptr_caract2);
-    */return 0;
+    return 0;
   }
